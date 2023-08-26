@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clothe-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+.container {
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.title-hearder {
+  margin-right: 20px;
+  font-size: 18px;
+}
+.title-hearder a:link {
+  margin-right: 30px;
+  display: inline-block;
+  text-decoration: none;
+}
+/* LVHA */
+.title-hearder a:visited {
+  color: aqua;
+}
+
+.title-hearder a:hover {
+  color: red;
+}
+.title-hearder a:active {
+  background-color: blue;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.fa {
+  color: red;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.fa:hover {
+  background-color: aqua;
+  border: 2px solid rgba(43, 255, 0, 0.74);
+}
+.fa:active {
+  background-color: aquamarine;
+}
